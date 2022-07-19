@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/RamazanBolatkhan/rest-api-postgres/internal/store"
+	"github.com/RamazanBolatkhan/rest-api-postgres/internal/app/store"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

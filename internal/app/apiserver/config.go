@@ -1,6 +1,6 @@
 package apiserver
 
-import "github.com/RamazanBolatkhan/rest-api-postgres/internal/store"
+import "github.com/RamazanBolatkhan/rest-api-postgres/internal/app/store"
 
 type Config struct {
 	BindAddr string `toml:"bind_addr"`
